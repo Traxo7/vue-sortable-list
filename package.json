@@ -1,0 +1,26 @@
+{
+  "name": "vue-sortable-list",
+  "version": "0.0.1",
+  "description": "Vue directive for lists allowing draggable sorting in sync with model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Traxo7/vue-sortable-list.git"
+  },
+  "keywords": [
+    "vue",
+    "sortable",
+    "draggable",
+    "list",
+    "directive"
+  ],
+  "author": "traxo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Traxo7/vue-sortable-list/issues"
+  },
+  "homepage": "https://github.com/Traxo7/vue-sortable-list#readme"
+}
