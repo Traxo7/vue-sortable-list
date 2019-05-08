@@ -1,5 +1,7 @@
 # vue-sortable-list
-Directive which makes your Vue list draggable.  
+Directive which makes your Vue list draggable.
+- Touch support
+- Handle support  
 
 Examples at codesandbox: https://codesandbox.io/s/1yplrk6kw7
 ##### Requirements
