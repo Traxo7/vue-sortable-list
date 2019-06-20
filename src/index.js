@@ -129,6 +129,11 @@ export default {
   install(Vue) {
     Vue.directive('draggable', {
       inserted: (listElement, binding, vnode) => {
+        let count = binding.value.depth || 0
+        while(count) {
+          listElement = listElement.firstChild
+          count--
+        }
         try {
           if (undefined === (binding.value && binding.value.value)) {
             throw new Error('A binding `value` property is not set.')

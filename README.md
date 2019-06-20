@@ -54,6 +54,16 @@ With handle:
 </ul>
 ```
 
+With depth:  
+```
+<div v-draggable="{value: items, depth: 1}">
+  <ul>
+    <li v-for="item in items" :key="item">{{ item }}</li>
+  </ul>
+</div>
+```
+
+
 ### API
 
 `v-draggable={value: items, handle: 'handle', placeholderClass: 'placeholder'}`  
@@ -62,6 +72,7 @@ With handle:
 - `{Array} value` - array of list items
 - `{String} handle` - class used by handle element
 - `{String} [placeholderClass = 'v-draggable__placeholder']` - class used by placeholder element
+- `{Number} depth` - determines how deep is list element nested
 
 ##### Events  
 `start` - on drag start  
