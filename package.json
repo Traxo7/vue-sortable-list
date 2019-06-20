@@ -1,6 +1,6 @@
 {
   "name": "vue-sortable-list",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue directive for lists allowing draggable sorting in sync.",
   "main": "index.js",
   "scripts": {

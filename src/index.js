@@ -131,7 +131,7 @@ export default {
       inserted: (listElement, binding, vnode) => {
         let count = binding.value.depth || 0
         while(count) {
-          listElement = listElement.firstChild
+          listElement = listElement.firstElementChild
           count--
         }
         try {
